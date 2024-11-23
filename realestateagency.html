@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="realestate.css">
+  <title>Real Estate Agency</title>
+</head>
+<body>
+  <header>
+     <h1>Real Estate Agency</h1>
+     <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#calculator">Mortgage Calculator</a></li>
+          <li><a href="#viewing-request">Request Viewing</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+     </nav> 
+  </header>
+  <main>
+     <section id="home">
+     <h2>Welcome to Our Agency</h2>
+     <p>Your one-stop shop for all your real estate needs!</p>
+     </section>
+     
+     <section id="calculator">
+     <h2>Mortgage Calculator</h2>
+     <form id="mortgage-form">
+          <input type="number" id="loan-amount" placeholder="Loan Amount" required>
+          <input type="number" id="interest-rate" placeholder="Interest Rate (%)" required>
+          <input type="number" id="loan-term" placeholder="Loan Term(years)" required>
+          <button type="submit">Calculate</button>
+          <div id="result"></div>
+     </form>
+     </section>
+      <section id="viewing-request">
+     <h2>Request a Property Viewing</h2>
+     <form id="viewing-form">
+          <input type="text" id="property-id" placeholder="Property ID" required>
+          <input type="text" id="full-name" placeholder="Full Name" required>
+          <input type="email" id="email" placeholder="Enter Email" required>
+          <input type="date" id="preferred-date" placeholder="Preferred Viewing Date" required>
+          <button type="submit">Submit Request</button>
+     </form> 
+     </section>
+     <section id="contact">
+     <h2>Contact Us</h2>
+         <form id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+     </form>
+     </section>
+  </main>
+       <footer>
+         <p>&copy; 2024 Real Estate Agency.All rights reserved.</p>
+       </footer>
+ <script src="realestate.js"></script>
+ 
+
+              </body>
+</html>
